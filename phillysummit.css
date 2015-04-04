@@ -1,0 +1,32 @@
+html {
+  font-size: 15px;
+}
+
+body {
+  background: #D4F4E8;
+  color: #4a4a4a;
+}
+
+.header {
+  text-align: center;
+}
+
+.header-image {
+  width: 60%;
+}
+
+.title {
+  color: #ED8274;
+  font-size: 1.5rem;
+}
+
+h2 {
+  color: #ED8274;
+  font-size: 1.2rem;
+}
+
+@media (min-width: 600px) {
+  html {
+    font-size: 20px;
+  }
+}
