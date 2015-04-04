@@ -1,5 +1,5 @@
 html {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 body {
@@ -7,17 +7,44 @@ body {
   color: #4a4a4a;
 }
 
+.page {
+  margin: auto;
+  width: 80%;
+}
+
 .header {
+  margin-bottom: 4rem;
   text-align: center;
+}
+
+.header-text {
+  padding: 1rem;
+  background: #ED8274;
 }
 
 .header-image {
   width: 60%;
 }
 
-.title {
-  color: #ED8274;
-  font-size: 1.5rem;
+.header-title {
+  color: ghostwhite;
+  font-size: 1.7rem;
+}
+
+.header-by {
+  margin-bottom: 0;
+  color: #D4F4E8;
+  font-size: .9rem;
+}
+
+.header-where {
+  margin-top: 10px;
+  font-size: .6rem;
+
+}
+
+section {
+  margin-bottom: 3rem;
 }
 
 h2 {
@@ -25,8 +52,33 @@ h2 {
   font-size: 1.2rem;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #68A691;
+}
+
+a:hover {
+  color: #ED8274;
+}
+
+.footer {
+  margin-top: 3.5rem;
+  padding: .6rem;
+  background: #ED8274;
+  color: ghostwhite;
+  font-size: .6rem;
+  text-align: center;
+}
+
 @media (min-width: 600px) {
   html {
     font-size: 20px;
+  }
+  .page {
+    width: 60%;
   }
 }
