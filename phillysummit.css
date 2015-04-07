@@ -40,7 +40,11 @@ body {
 .header-where {
   margin-top: 10px;
   font-size: .6rem;
+  color: ghostwhite;
+}
 
+.page {
+  line-height: 30px;
 }
 
 section {
